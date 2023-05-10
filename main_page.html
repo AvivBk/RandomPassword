@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="main_page.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    </head>
+    <body>
+          <div class="main-container">
+            <h1>Generate a</h1>
+            <h2>random password</h2>
+            <h3>Never use an insecure password again.</h3>
+          </div>
+          <div class="bottom-container">
+             <button class="page-btns" onclick="onClick_GeneratePassword()">Generate Passwords</button>
+          </div>
+          <hr class="line-rule">
+          <div class="m-container" style="display: flex; justify-content: space-around">
+               <fieldset id = "l-fieldset" class="fieldsets" onclick="onClick_Password1()">
+              <p class ="password-fs" id="password1-el">@@@@@</p>
+               </fieldset>
+                <fieldset id = "r-fieldset" class="fieldsets" onclick="onClick_Password2()">
+              <p class ="password-fs" id="password2-el">@@@@@</p>
+                </fieldset>
+          </div>
+        <script src="main_page.js"></script>
+    </body>
+</html>
